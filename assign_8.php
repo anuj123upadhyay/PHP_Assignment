@@ -3,7 +3,12 @@
 <body>
 
 <?php
-
+// 8.Scenario: You are creating a grading system for a school website. Based on the score obtained by a student in an exam, you need to assign a grade. Write a PHP script that takes the score as input and assigns a grade according to the following criteria:
+//     Score >= 90: Grade A
+//     Score >= 80: Grade B
+//     Score >= 70: Grade C
+//     Score >= 60: Grade D
+//     Score < 60: Grade F
 function assignGrade($score) {
     if ($score >= 90) {
         return 'A';

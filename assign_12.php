@@ -3,6 +3,7 @@
 <body>
  
 <?php
+// 12.Scenario: You are building a subscription-based service where users can choose between different subscription plans. However, you want to offer a trial period for new users. Write a PHP script that checks if the user is a new user and offers them a trial period if they haven't subscribed before.
 
 // Function to check if the user is a new user (you would typically check this against your database)
 function isNewUser($userId) {

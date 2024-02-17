@@ -2,6 +2,7 @@
 <html>
 <body>
 <?php
+// Scenario: You are developing a blog platform where users can publish articles. However, you want to implement a feature that limits the length of article titles to 50 characters. Write a PHP script that checks the length of the article title and truncates it to 50 characters if it exceeds the limit.
 function truncateTitle($title) {
     if (strlen($title) > 50) {
         // Truncate the title to 50 characters
